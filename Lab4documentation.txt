@@ -1,0 +1,13 @@
+file = state "\n" alphabet "\n" transformationFun "\n" initialStates "\n" finalStates "\n" 
+lowerCaseChar = "a" | ... | "z"
+upperCaseChar = "A" | ... | "Z"
+state = lowerCaseChar {"," lowerCaseChar}
+alphabet = upperCaseChar {"," upperCaseChar}
+transition=state "->" (state | alphabet) {(state | alphabet)}
+initialStates = upperCaseChar {"," upperCaseChar}
+finalState = (state | alphabet) {(state | alphabet)}
+finalStates = finalState {"," finalState}
+
+
+
+In the function I recursively generate all possibilities using given rules (not optimize, so it takes a lot)

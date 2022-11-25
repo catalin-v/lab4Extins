@@ -1,0 +1,10 @@
+a,b,c
+S,B,C
+D->0|1|2|3|4|5|6|7|8|9,N->DN,S->+N|-N|N,C->a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z,Q->C|CQ,L->N|Q|NL|QL,I->QL
+I
+asb
+
+
+sequnce of letters Q->C|CQ
+sequnce of letters in digits L->N|Q|NL|QL
+identifier simple I->QL
